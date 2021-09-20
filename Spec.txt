@@ -1,0 +1,11 @@
+Programunk célja, hogy egy sorozatcím bevitele esetén a kivitelre ábrázoljon egy diagrammot amiből megtudhatjuk a részek számát és az adott részek IMDB-s értékelését.
+
+
+Követelmény lista: ID 		Név							Kifejtés
+				   01		Diagram						A diagramnak egy oszlop diagramként kell megejelennie.
+				   02		Diagram oszlopok			A diagram oszlopai különböző színűek a sorozat évadai szerint.
+				   03		Diagram függőleges oldal	A diagram függőleges ágán az értékelések egy 1-10ig terjedő skálán jelenjenek meg.
+				   04		Diagram vízszintes oldal	A diagram víiszintes oldalán az számok az adott évadonként jelenjenek meg.
+				   05 		Felhasználói felület		A programnak meg kell jeleníteni egy felhasználói felületet amin meg kell jelennie egy szöveg doboznak és egy gombnak.
+				   06		Gomb 						A gombnak el kell indítania egy webes lekérdezést a szövegdobozban feltüntetett szövegre.
+				   07		Szövegdoboz					A szövegdoboz lesz a program bemenete amire a keresés fog elindulni a gomb megnyomása esetén.
