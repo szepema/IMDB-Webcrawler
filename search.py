@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from googlesearch import search
 
-def search(title){
+def search(title):
     query = title + " site=\"imdb.com\""
     url = next(search(query, stop=1), None)
     headers = {"Accept-Language": "en-US, en;q=0.5"}
@@ -24,4 +24,3 @@ def search(title){
             season_rating.append(float(div.find('span', class_='ipl-rating-star__rating').text))
         ratings.append(season_rating)
     return(ratings)
-}
