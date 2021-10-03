@@ -1,0 +1,16 @@
+A program egy sorozat részeinek IMDB értékeléseit jeleníti meg grafikusan, annak címe alapján. A programot Python 3.9.7-ben valósítjuk meg.
+A programot három modulra szedjük szét: felhasználói felület, értékelések lekérdezése, ábrázolás.
+
+Felhasználói felület:
+- a Tkinter csomag segítségével egy szövegdobozt és egy gombot tartalmazó felhasználói felületet hozunk létre
+- a szövegdobozba írt sorozatcímet eltároljuk
+
+Értékelések lekérdezése:
+- az eltárolt címre a googlesearch és requests csomagok segítségével rákeresünk, eltároljuk az első linket amit visszaad
+- a bs4 könyvtárból importált BeautifulSoup csomag segítségével a linken keresztül megkeressük és eltároljuk az évadok számát
+- az évadok száma segítéségével legeneráljuk az egyes évadok IMDB oldalának URL-jét
+- a requests és a BeautifulSoup csomagok segítésével az évadokon belül az egyes részek értékeléseit is eltároljuk
+
+Ábrázolás:
+- matplotlib csomag segítéségével az összes értékelést ábrázoljuk
+- a random modul segítségével az egyes részek értékeléseinek eltérő színezést adunk, hogy elkülönüljenek
