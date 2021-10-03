@@ -16,9 +16,12 @@ root.title("IMDB Search")
 #az input box adatinak bekérése
 def myClick():
     title = sName.get()
-    ratings = search.find_ratings(title)
-    graph.graph(ratings)
-    
+    try:
+        ratings = search.find_ratings(title)
+        graph.graph(ratings)
+    except Exception:
+        print('Hiba adódott a keresésnél')
+        exit()
 
 
 #a szöveg, input box és gomb paraméteri
