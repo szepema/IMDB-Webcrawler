@@ -13,7 +13,6 @@ def find_ratings(title):
     result = requests.get(url, headers=headers)
     site = BeautifulSoup(result.text, "html.parser")
     number_of_seasons = site.find('label', class_='ipc-simple-select__label').text.split()[0]
-    print(number_of_seasons)
 
     season_urls = []
     for i in range(1,int(number_of_seasons)+1):
@@ -28,4 +27,4 @@ def find_ratings(title):
         for div in rating_divs:
             season_rating.append(float(div.find('span', class_='ipl-rating-star__rating').text))
         ratings.append(season_rating)
-    print(ratings)
+    return ratings
