@@ -16,5 +16,4 @@ def graph(lst):
     plt.ylabel("Ratings")
     # plt.xticks(range(1, length+1))
     plt.yticks(range(11))
-    plt.legend()
     plt.show()
