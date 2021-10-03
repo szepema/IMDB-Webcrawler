@@ -1,4 +1,7 @@
 import tkinter
+import search
+import graph
+
 
 root = tkinter.Tk()
 
@@ -12,7 +15,10 @@ root.title("IMDB Search")
 
 #az input box adatinak bekérése
 def myClick():
-    sName.get()
+    title = sName.get()
+    ratings = search.find_ratings(title)
+    graph.graph(ratings)
+    
 
 
 #a szöveg, input box és gomb paraméteri
