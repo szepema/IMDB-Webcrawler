@@ -49,7 +49,7 @@ Rendszerterv
         - Fejlesztői környezetek:
             - Visual Studio Code
             - NotePad++
-        -Felhasznált python könyvtárak:
+        - Felhasznált python könyvtárak:
             - tkinter
             - matloptlib
             - bs4
