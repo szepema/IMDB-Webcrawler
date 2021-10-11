@@ -6,7 +6,11 @@
 
 	A program kérjen be egy user inputot, amit utána lefuttat egy Google keresés segítségével az IMDB adatbázisban, majd a hozzátartozó IMDB étékeléseket jelenítse meg egy oszlopdiagrammon.
 
-3. Követelmény lista 
+3. Lehetséges üzleti folyamatok modellje
+	
+	Manapság rendkívül népszerűek, például Reddit-en, az adatvizualizációk, melyek gyors elkészítéséhez ez egy kiváló eszköz lehet.
+
+4. Követelmény lista 
 
 	1.: A diagramnak egy oszlopdiagramként kell megjelennie.
 
@@ -22,7 +26,7 @@
 	
 	7.: A szövegdoboz lesz a program bemenete amire a keresés fog elindulni a gomb megnyomása esetén.
 
-4. Fogalomszótár
+5. Fogalomszótár
 	
 	- GUI: Graphical User Interface, grafikus felhasználói felület, hely ahol a felhasználó interakcióba léphet a programmal.
 	- User input: a felhasználó által megadott adat.
