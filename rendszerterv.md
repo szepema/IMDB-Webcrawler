@@ -55,11 +55,8 @@ Rendszerterv
             - bs4
             - google
 
-7. Tesztelés
 
-    A program futtatás során teszteli azt, hogy rendelkezünk-e internet kapcsolattal és hogy megtalálható-e az adott sorozat egy google-es kereséssel. Mindkét eset hiányában egy hibaüzenetet kapunk vissza a parancssorban.
-
-8. Telepítés
+7. Telepítés
 
     A program futattásához szükségünk van a tkinter, matplotlib, bs4 és google python könyvtárakra amiket parancsorban linuxos környezetben a -pip3 install [könyvtár neve], windowson pedig a -pip install [könyvtár neve] parancsokkal tudunk telepíteni
 
