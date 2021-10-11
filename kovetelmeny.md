@@ -4,7 +4,7 @@
 
 2. Kész program
 
-	A program kérjen be egy user inputot, amit utána lefuttat egy Google keresés segítségével az IMDB adatbázisban, majd a hozzátartozó IMDB étékeléseket jelenítse meg egy oszlopdiagrammon.
+	A program kérjen be egy user inputot, aminek megkeresi az IMDB oldalát egy Google keresés segítségével, majd a sorozat részeihez hozzátartozó IMDB étékeléseket jelenítse meg egy oszlopdiagrammon.
 
 3. Lehetséges üzleti folyamatok modellje
 	
