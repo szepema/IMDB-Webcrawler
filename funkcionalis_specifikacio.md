@@ -4,7 +4,7 @@ A IMDB_Webcrawler alkalmazásunkkal kapcsolatos feladatokat felosztottuk a csapa
 
 2. Kész program
 
-A program bekér egy user inputot amit utána lekérdez a IMDB adatbázisból és a hozzá tartozó értékeléseket megjeleníti egy oszlopgrafikonon
+A program kérjen be egy user inputot, aminek megkeresi az IMDB oldalát egy Google keresés segítségével, majd a sorozat részeihez hozzátartozó IMDB étékeléseket jelenítse meg egy oszlopdiagrammon.
 
 3. Üzleti folyamatok modellje
 	
